@@ -1,6 +1,3 @@
-
-console.log(GOOGLE_API_KEY);
-
 let map;
 document.addEventListener('DOMContentLoaded', ()=>{
     let s = document.createElement('script');
@@ -9,10 +6,10 @@ document.addEventListener('DOMContentLoaded', ()=>{
         console.log('script had loaded');
         map = new google.maps.Map(document.getElementById('map'), {
             center: {
-                lat: 45.3496711,
-                lng: -75.7569551
+                lat: 48.44073,
+                lng: 2.21296
             },
-            zoom: 16,
+            zoom: 2,
             mapTypeId: google.maps.MapTypeId.ROADMAP
         });
     });
